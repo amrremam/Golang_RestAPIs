@@ -1,0 +1,8 @@
+build:
+	@go build -o GO/Golang_RestfulAPIs
+
+run:
+	@./GO/Golang_RestfulAPIs
+
+test:
+	@go test -v ./...
